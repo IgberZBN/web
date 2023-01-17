@@ -1,0 +1,21 @@
+li a{
+    text-decoration: none;
+    background-color: orange;
+    display: block;
+    height: 40px;
+    text-align: left;
+    line-height: 40px;
+    color: black;
+}
+li a:hover{
+    background-color: yellow;
+}
+li{
+    width: 400px;
+    border: 1px solid black;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
