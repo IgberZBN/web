@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" contenidth, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+            background-color: beige;
+        }
+        td{
+            border: 1px solid black;
+            text-align: center;
+        }
+        th{
+            background-color: bisque;
+            border: 1px solid chocolate;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Tabela de preco de cursos</caption>
+        <thead>
+            <tr>
+                <th>Area</th>
+                <th>Curso</th>
+                <th>Investimento</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="3">Valores sujeitos a alteracao sem previo aviso</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td rowspan="2">Desing</td>
+                <td>InDesing</td>
+                <td>R$1.000,00</td>
+            </tr>
+            <tr>
+                <td>Photoshop</td>
+                <td>R$1.000,00</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Dev</td>
+                <td>html</td>
+                <td>R$1.000,00</td>
+            </tr>
+            <tr>
+                <td>Css</td>
+                <td>R$1.000,00</td>
+            </tr>
+            <tr>
+                <td>PHP</td>
+                <td>R$1.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Flutuantes</title>
+    <style>
+        #fundo{
+            background-color: black;
+            width: 100%;
+            overflow: auto;
+        }
+        .generico{
+            clear: both;
+            background-color: darkblue;
+        }
+        .conteudo{
+            background-color: blue;
+            border: 1px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 5px;
+        }
+        .cont1{
+            background-color: yellow;
+            float: left;
+        }
+        .cont2{
+            background-color: green;
+            float: left;
+        }
+        .cont3{
+            float: left;
+        }
+        .cont4{
+            border: solid 1px red;
+            background-color: orange;
+            clear: both;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="fundo">
+        <div class="conteudo cont1">
+            <p>Conteudo 1</p>
+        </div>
+        <div class="conteudo cont2">
+            <p>Conteudo 2</p>
+        </div>
+        <div class="conteudo cont3">
+            <p>Conteudo 3</p>
+        </div>
+        <div class="conteudo generico">
+            <p>Porra</p>
+        </div>
+    </div>
+    <div class="conteudo cont4">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci atque accusamus officiis. Reprehenderit culpa autem vero impedit tempore aut? Nesciunt, quod in. Unde cumque excepturi quae ab dignissimos saepe quaerat.</p>
+    </div>
+</body>
+</html> 

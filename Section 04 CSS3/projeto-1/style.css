@@ -1,0 +1,39 @@
+body{
+    background-image: url(./img/fundo.png);
+    font-family: arial;
+}
+#container{
+    background-color: #d4d3be;
+    width: 80%;
+    margin: auto;
+}
+nav{
+    text-align: center;
+    letter-spacing: 2px;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #4c5268;
+}
+a, h2{
+    font-family: sans-serif;
+}
+section{
+    background-color: #fdfbed;
+    padding: 5px 15px;
+}
+section img{
+    width: 60%;
+    border: 10px #d4d3be solid;
+}
+h2{
+    color: #888576;
+}
+footer{
+    text-align: center;
+}
